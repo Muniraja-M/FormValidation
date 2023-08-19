@@ -55,6 +55,10 @@ setErrors((errors)=>({...errors,password:""}))
     <div>
       <button className='btn btn-primary w-100 mt-3 ' onClick={handleSubmit}>Login</button>
     </div>
+    <div className='mt-3'>
+      <lable>Reset Password</lable>
+      {errors.email&&<span className='text-danger'>{errors.email}</span>}
+    </div>
     </div>
 
   )
