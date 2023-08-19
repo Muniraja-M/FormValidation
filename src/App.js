@@ -57,9 +57,7 @@ setErrors((errors)=>({...errors,password:""}))
     </div>
     <div className='mt-3'>
       <lable>Reset Password</lable>
-    </div>
-    <div className='mt-3'>
-      <lable>Delete account</lable>
+      {errors.email&&<span className='text-danger'>{errors.email}</span>}
     </div>
     </div>
 
