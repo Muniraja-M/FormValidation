@@ -68,7 +68,7 @@ const App = () => {
       </div>
       <div>
         <button className="btn btn-primary w-100 mt-3 " onClick={handleSubmit}>
-          Login
+          Login with user
         </button>
       </div>
     </div>
